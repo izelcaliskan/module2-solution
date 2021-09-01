@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+.my-box-1 {
+    float: left;
+    padding: 10px;
+}
+
+.my-box-2 {
+    float: left;
+    padding: 10px;
+}
+
+.my-box-3 {
+    float: left;
+    padding: 10px;
+}
+
+.my-box-child {
+    background-color: gray;
+    border: 2px solid black;
+}
+
+.my-box-title1 {
+    background-color: red;
+    float: right;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+
+.my-box-title2 {
+    background-color: pink;
+    float: right;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+
+.my-box-title3 {
+    background-color: yellow;
+    float: right;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+
+.my-box-content {
+    clear: both;
+    padding: 5px;
+}
+
+.raw {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .my-box-1,
+    .my-box-2,
+    .my-box-3 {
+        float: left;
+    }
+    .my-box-1 {
+        width: 33.33%;
+    }
+    .my-box-2 {
+        width: 33.33%;
+    }
+    .my-box-3 {
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .my-box-1,
+    .my-box-2,
+    .my-box-3 {
+        float: left;
+    }
+    .my-box-1 {
+        width: 50%;
+    }
+    .my-box-2 {
+        width: 50%;
+    }
+    .my-box-3 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .my-box-1,
+    .my-box-2,
+    .my-box-3 {
+        float: left;
+    }
+    .my-box-1 {
+        width: 100%;
+    }
+    .my-box-2 {
+        width: 100%;
+    }
+    .my-box-3 {
+        width: 100%;
+    }
+}
