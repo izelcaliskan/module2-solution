@@ -23,12 +23,12 @@ h1 {
 }
 
 .my-box-child {
-    background-color: gray;
+    background-color: blueviolet;
     border: 2px solid black;
 }
 
 .my-box-title1 {
-    background-color: red;
+    background-color: peachpuff;
     float: right;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
